@@ -1,5 +1,5 @@
 {
-  "name": "jira",
+  "name": "css-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,7 +29,7 @@
     "concurrently": "^3.6.1",
     "eslint": "5.12.0",
     "font-awesome": "^4.7.0",
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.1",
     "nodemon": "^1.17.2"
   },
   "babel": {

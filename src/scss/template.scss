@@ -4,6 +4,38 @@ body {
 }
 
 .molo {
+    .section {
+        padding: 90px 60px;
+        font-family: Mercury Display, sans-serif;
+        font-size: 1em;
+    }
+    .section-header-centered {
+        text-align: center;
+        font-size: 2em;
+        .main-title {
+            border-top: solid 1px black;
+            border-bottom: solid 1px black;
+        }
+        .main-subtitle {
+            font-size: 1.5em;
+        }
+        .reg-par {
+            font-size: 1em;
+        }
+    }
+    .row {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .col {
+        padding: 16px;
+    }
+    .col-8 {
+        width: 50%;
+    }
+}
+
+.molo {
     font-family: apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,'Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
     i {
         padding: 10px;
