@@ -189,18 +189,3 @@
 
 
 
-
-
-
-
-
-class ProjectItem {}
-
-class ProjectList {
-
-
-
-}
-
-class App {}
-

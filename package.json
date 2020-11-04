@@ -1,5 +1,5 @@
 {
-  "name": "jira",
+  "name": "css-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -16,8 +16,7 @@
     "watch": "concurrently \"npm:watch:*\" \"npm run serve\"",
     "clean": "rimraf public/",
     "serve": "live-server public/ --host=0.0.0.0 --port=3000",
-    "start": "npm run build && npm run watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build && npm run watch"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
@@ -29,7 +28,7 @@
     "concurrently": "^3.6.1",
     "eslint": "5.12.0",
     "font-awesome": "^4.7.0",
-    "live-server": "^1.2.0",
+    "live-server": "^1.2.1",
     "nodemon": "^1.17.2"
   },
   "babel": {
