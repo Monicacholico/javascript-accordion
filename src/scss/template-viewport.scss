@@ -1,4 +1,4 @@
-// .molo {
+
 
     @media only screen and (max-width: 800px) {
         .molo {
@@ -19,18 +19,13 @@
     }
 
     @media only screen and (max-width: 600px) {
-        body {
-        //   background-color: hotpink;
-        }
         .molo {
             .row {
                 flex-flow: column wrap;
             }
-            .col-8, .col-4 {
+            .col-8, .col-4, .col-2 {
                 width: 100%;
             }
         }
       }
 
-
-// }
