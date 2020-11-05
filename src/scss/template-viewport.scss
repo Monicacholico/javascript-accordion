@@ -20,9 +20,10 @@
 
     @media only screen and (max-width: 600px) {
         body {
-        //   background-color: hotpink;
+          background-image: url("/src/images/background.png");
         }
         .molo {
+            background-image: url("src/images/background.png");
             .row {
                 flex-flow: column wrap;
             }
