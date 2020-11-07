@@ -35,13 +35,16 @@ body {
     .col-8 {
         max-width: 80%;
         width: 50%;
+        border-right: solid 1px black;
     }
-    // .col-4 {
-    //     max-width: 45%;
-    // }
-    // .col-2 {
-    //     max-width: 33%;
-    // }
+    .col-4 {
+        // max-width: 45%;
+        // border-right: solid 1px black;
+    }
+    .col-2 {
+        // max-width: 33%;
+        // border-right: solid 1px black;
+    }
 }
 
 .molo {
