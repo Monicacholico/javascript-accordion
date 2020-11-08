@@ -10,6 +10,15 @@ body {
         padding: 90px 60px;
         font-family: Mercury Display, sans-serif;
         font-size: 1em;
+        .row {
+            .col.col-4 {
+                .row:nth-child(2), .row:nth-child(3) {
+                    .col.col-2 {
+                        border-right: solid 1px black;
+                    }
+                }
+            }
+        }
     }
     .section-header-centered {
         text-align: center;
